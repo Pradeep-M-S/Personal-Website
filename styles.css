@@ -1,0 +1,45 @@
+@font-face {
+  font-family: super;
+  src: url(CSS/font/regular.otf);
+}
+body {
+  margin: 0;
+  font-family: super;
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 2px;
+  padding-top: 50px;
+  font-size: 70px;
+  font-weight: 500;
+  font-family: "Sacramento", cursive;
+  margin: 0 auto 0 auto;
+}
+h2 {
+  font-family: super;
+  margin-top: 11px;
+}
+p {
+  text-align: center;
+}
+
+div {
+  display: inline-flexbox;
+  background-color: #e0ebe8;
+}
+.pro {
+  text-decoration: underline;
+}
+.bottom-cloud {
+  position: absolute;
+  margin: 10 20 30 40;
+}
+.top-cloud {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.profile {
+  margin-top: -12px;
+}
